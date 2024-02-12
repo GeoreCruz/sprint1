@@ -1,1 +1,3 @@
 - criado pagina principal
+-Erro solucionado
+- Pagina contato criada

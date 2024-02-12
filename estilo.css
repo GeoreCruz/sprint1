@@ -5,13 +5,14 @@
     list-style: none;
 }
 
+/*Menus*/
 
 header .container{
     width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 71px;
+    margin: 50px 71px;
 }
 
 .logo img{
@@ -37,6 +38,8 @@ header nav ul a{
 header nav ul a:hover{
     color: #999;
 }
+
+/*Conteudo principal*/
 
 main{
     display: flex;
@@ -113,6 +116,8 @@ main{
     border-radius: 4px;
 }
 
+/*Rodapé*/
+
 footer{
     display: flex;
     flex-direction: column;
@@ -133,4 +138,87 @@ footer p{
    
    
 }
+
+/*Contato*/
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato .formulario{
+    width: 780px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #660027;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.contato h1{
+    font-size: 36px;
+    font-family: roboto;
+    color: #660027;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.contato .formulario form{
+    font-size: 24px;
+    font-family: roboto;
+    color: #7B7676;
+   
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.formulario form input{
+    display: flex;
+    width: 400px;
+    height: 42px;
+   
+}
+
+.formulario textarea{
+    width: 400px;
+    height: 128px;
+}
+
+.formulario button{
+    width: 128px;
+    height: 42px;
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: 400;
+    background-color: #660027;
+   cursor: pointer;
+    color: #ffffff;
+    margin: 20px 0;
+}
+.endereco{
+    width: 400px;
+    height: 700px;
+    background-color: #660027;
+    margin-bottom: 50px;
+}
+
+.endereco p{
+    font-family: roboto;
+    font-size: 24px;
+    font-weight:400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+
 
