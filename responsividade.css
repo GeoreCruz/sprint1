@@ -22,22 +22,77 @@
     }
 
     .area-moda{
-        width: 320px;
+        flex-direction: row;
+        width: 300px;
+        text-align: justify;
     }
 
     .cards{
         flex-direction: column;
         display: flex;
         justify-content: center;
-        margin: 0 30px;
+        margin-left: 30px;
         
     }
 
     .card{
         margin: 20px 0;
     }
-   
 
+    footer{
+        width: 380px;
+        margin: 10px 10px
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+   
+    .contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contato .formulario{
+        width: 320px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+    }
+
+    .formulario form input{
+        display: flex;
+        justify-content: center;
+        width: 263px;
+        height: 42px;
+    }
+    
+    .formulario textarea{
+        width: 263px;
+        height: 128px;
+    }
+
+    .endereco{
+        width: 320px;
+        height: 700px;
+        background-color: #660027;
+        margin-bottom: 50px;
+    }
+
+    .endereco p{
+        font-family: roboto;
+        font-size: 16px;
+        font-weight:400;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 300px;
+    }
+
+  
 }
 
     

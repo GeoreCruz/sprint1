@@ -2,3 +2,5 @@
 -Erro solucionado
 - Pagina contato criada
 -criada a responsividade
+- correções
+- Mais correções
