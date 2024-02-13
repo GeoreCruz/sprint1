@@ -1,3 +1,4 @@
 - criado pagina principal
 -Erro solucionado
 - Pagina contato criada
+-criada a responsividade
